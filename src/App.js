@@ -41,7 +41,7 @@ class App extends Component {
         const list = [...this.state.list];
 
         // filter out item being deleted
-        const updatedList = list.fill(item => item.id !== id);
+        const updatedList = list.filter(item => item.id !== id);
 
         this.setState({list: updatedList});
     }
