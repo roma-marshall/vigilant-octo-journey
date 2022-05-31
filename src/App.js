@@ -34,7 +34,16 @@ class App extends Component {
             list,
             newItem: ''
         });
+    }
 
+    deleteItem(id) {
+        // copy current list of items
+        const list = [...this.state.list];
+
+        // filter out item being deleted
+        const updatedList = list.fill(item => item.id !== id);
+
+        this.setState({list: updatedList});
     }
 
     render() {
