@@ -73,7 +73,7 @@ class App extends Component {
                                     <div
                                         className="flex justify-between border-b color-gray-900/20 mb-2 pb-2"
                                         key={item.id}>
-                                        <span className="mr-10 pt-1"> {item.value}</span>
+                                        <span className="mr-10 pt-1">{item.value ? 0 : 'null'}</span>
                                         <button
                                             className="font-bold py-1 px-3 rounded bg-red-500 text-white hover:bg-red-700"
                                             onClick={() => this.deleteItem(item.id)}
