@@ -69,7 +69,7 @@ class App extends Component {
                                 <li key={item.id}>
                                     {item.value}
                                     <button
-                                    onClick={() => this.deleteItem(item.id)}
+                                        onClick={() => this.deleteItem(item.id)}
                                     >
                                         X
                                     </button>
