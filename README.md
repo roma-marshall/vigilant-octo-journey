@@ -4,6 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # [Live Demo](https://neon-douhua-d19888.netlify.app)
 
+<img width="1440" alt="Screenshot 2022-06-02 at 13 15 14" src="https://user-images.githubusercontent.com/79694559/171617668-81216263-2a46-4920-9481-bd6d9a6c1b23.png">
 
 ## Available Scripts
 
